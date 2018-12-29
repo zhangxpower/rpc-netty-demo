@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>rpc-core</module>
         <module>rpc-service-interface</module>
         <module>rpc-service-provider</module>
         <module>rpc-service-consumer</module>

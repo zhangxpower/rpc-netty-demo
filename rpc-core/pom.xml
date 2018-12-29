@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rpc-service-provider</artifactId>
+    <artifactId>rpc-core</artifactId>
 
-    <name>rpc-service-provider</name>
+    <name>rpc-core</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -22,16 +22,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>top.gandalf.rpc</groupId>
-            <artifactId>rpc-core</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>top.gandalf.rpc</groupId>
-            <artifactId>rpc-service-interface</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

@@ -12,7 +12,7 @@ import java.util.Date;
 public class HelloPrintService implements PrintService {
     @Override
     public String say(String name) {
-        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD hh:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd hh:mm:ss");
         return "[" + sdf.format(new Date()) + "] Hello, " + name;
     }
 }
